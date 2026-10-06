@@ -23,7 +23,7 @@ pipeline {
 
         stage('Docker Build') {
             steps {
-                bat 'docker build -t safecity:1.0 .'
+                bat '"C:\\Users\\saksh\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin\\docker.exe" build -t safecity:1.0 .'
             }
         }
     }
